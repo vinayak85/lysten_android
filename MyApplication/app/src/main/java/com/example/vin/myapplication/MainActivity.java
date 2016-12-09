@@ -50,6 +50,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_cal = (Button) findViewById(R.id.btn_calender);
+        btn_cal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent k = new Intent(MainActivity.this,Login.class);
+                startActivity(k);
+            }
+        });
+
+
+
         /*hi this is comment*/
 
 

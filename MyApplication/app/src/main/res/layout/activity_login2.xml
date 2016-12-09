@@ -7,9 +7,11 @@
     android:orientation="vertical"
     tools:context="com.example.vin.myapplication.Login">
 
-  <ImageView
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-       />
+   <CalendarView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/cal">
+
+   </CalendarView>
 
 </LinearLayout>
