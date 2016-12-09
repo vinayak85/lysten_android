@@ -50,9 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /* hi arjun*/
-        /* bbbbbb */
-        /* bye * /
+        /*hi this is comment*/
 
 
 
