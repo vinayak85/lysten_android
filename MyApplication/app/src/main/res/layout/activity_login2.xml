@@ -6,12 +6,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.vin.myapplication.Login">
-
-   <CalendarView
+   <ImageView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:id="@+id/cal">
+       android:id="@+id/lysten_logo"
+       android:maxHeight="100dp"
+       android:src="@drawable/icon"
+       android:layout_marginTop="25dp"/>
 
-   </CalendarView>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="textPersonName"
+
+       android:ems="10"
+       android:id="@+id/txt_username"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginTop="20dp"
+       android:hint="Enter Email ID"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="textPassword"
+       android:ems="10"
+       android:id="@+id/txt_password"
+       android:hint="Enter Password"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"/>
+
+   <Button
+       android:text="LOGIN"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn_login"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="20dp"/>
+
 
 </LinearLayout>
