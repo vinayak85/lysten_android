@@ -45,5 +45,5 @@ public interface ApiService {
     //EMAIL ID IS CONFIRM CHECK
     @POST("/Account/CheckEmailConfirm")
     public void addStudent(@Body "",Callback<Student> callback);
-
+ 
 }
