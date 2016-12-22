@@ -46,6 +46,12 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="title_activity_map_activity">Map</string>
+    <string name="title_activity_temp">temp</string>
+
+    <string name="title_activity_calender_show">calender_show</string>
+
+    <string name="title_activity_mycalendar">mycalendar</string>
+    <string name="title_activity_my_calendar">MyCalendar</string>
 
 
 </resources>

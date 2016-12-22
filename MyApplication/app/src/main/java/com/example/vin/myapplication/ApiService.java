@@ -40,4 +40,10 @@ public interface ApiService {
     @POST("/institute/Students")
     public void addStudent(@Body Student student,Callback<Student> callback);*/
 
+
+
+    //EMAIL ID IS CONFIRM CHECK
+    @POST("/Account/CheckEmailConfirm")
+    public void addStudent(@Body "",Callback<Student> callback);
+
 }

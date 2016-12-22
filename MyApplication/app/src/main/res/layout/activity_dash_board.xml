@@ -1,81 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/gridview"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3" >
 
-    android:numColumns="auto_fit"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
 
-    android:stretchMode="spacingWidthUniform"
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My calender"
+            android:id="@+id/btn_calender" />
 
-    >
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_1"
-        android:src="@drawable/icon"
-        android:layout_row="0"
-        android:layout_column="0"
-        android:stretchMode="columnWidth"
-        android:background="@android:color/holo_orange_light"
-        android:layout_gravity="center"/>
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_4"
-        android:src="@drawable/icon"
-        android:layout_row="0"
-        android:layout_column="1"
-        android:layout_gravity="center"
-        android:background="@android:color/holo_orange_light"
-        />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_5"
-        android:src="@drawable/icon"
-        android:layout_row="1"
-        android:layout_column="0"
-        android:layout_gravity="center"
-        android:background="@android:color/holo_orange_light"
-
-        />
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_6"
-        android:src="@drawable/icon"
-        android:layout_row="1"
-        android:layout_column="1"
-        android:layout_gravity="center"
-        android:background="@android:color/holo_orange_light"
-
-        />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_2"
-        android:src="@drawable/icon"
-        android:layout_row="2"
-        android:layout_column="0"
-        android:layout_gravity="center"
-
-        android:background="@android:color/holo_orange_light"
-        />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_3"
-        android:src="@drawable/icon"
-        android:background="@android:color/holo_orange_light"
-        android:layout_row="2"
-        android:layout_gravity="center"
-        android:layout_column="1" />
-    </GridLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My Attendence" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My DCR" />
 
 
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My Masters" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My Contrubution" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My Reports" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_7"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="My Profile" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="Forms" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btn_9"
+            android:layout_weight="1"
+            android:src="@drawable/reporting1"
+            android:scaleType="fitCenter"
+            android:text="Settings" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
